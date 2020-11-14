@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+        <PackageId>Bonliva.PersonNumber</PackageId>
+        <Authors>Bonliva AB</Authors>
+        <Copyright>Bonliva AB</Copyright>
+        <PackageProjectUrl>https://bonliva.se</PackageProjectUrl>
+        <PackageVersion>$([System.DateTime]::Now.ToString("yyyy.MM.dd.HHmmss"))</PackageVersion>
+        <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
+        <RootNamespace>Bonliva.PersonNumber</RootNamespace>
+    </PropertyGroup>
+
+</Project>
