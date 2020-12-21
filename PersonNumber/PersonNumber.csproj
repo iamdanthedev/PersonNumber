@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <TargetFramework>netstandard2.0</TargetFramework>
         <Nullable>enable</Nullable>
         <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
         <PackageId>Bonliva.PersonNumber</PackageId>
@@ -11,6 +11,11 @@
         <PackageVersion>$([System.DateTime]::Now.ToString("yyyy.MM.dd.HHmmss"))</PackageVersion>
         <AppxAutoIncrementPackageRevision>True</AppxAutoIncrementPackageRevision>
         <RootNamespace>Bonliva.PersonNumber</RootNamespace>
+        <LangVersion>8</LangVersion>
     </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="PersonNumber" />
+    </ItemGroup>
 
 </Project>
